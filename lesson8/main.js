@@ -60,7 +60,8 @@ let appData = {
     },
     activBtn: function() {
         if (salaryAmount.value !== '') {
-            start.disablede('disabled');
+            start.removeAttribute('disabled');
+            //start.disablede('disabled');
         }
       },
 
