@@ -14,7 +14,7 @@ collect[0].appendChild(book[2]);
 
 // замена фонового изображения
 let elemBody = document.querySelector('body');
-elemBody.setAttribute('style', 'background-image: url(./image/adv.jpg)');
+elemBody.setAttribute('style', 'background-image: url(./image/you-dont-know-js.jpg)');
 
 
 let headLine = document.getElementsByTagName('a')[2];
